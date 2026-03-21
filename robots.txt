@@ -1,0 +1,7 @@
+# Aurelianware, Inc.
+# https://aurelianware.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://aurelianware.com/sitemap.xml
