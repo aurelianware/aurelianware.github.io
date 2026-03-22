@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /portal/
 
 Sitemap: https://aurelianware.com/sitemap.xml
