@@ -135,6 +135,13 @@
       font-size: 0.8rem;
     }
   </style>
+
+  <style amp-custom>
+    .resp-img {
+      max-width: 1200px;
+    }
+  </style>
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -153,20 +160,26 @@
   <header style="background:#000; padding:1rem; text-align:center; border-bottom:2px solid #00ff9f;">
     <h2 style="margin:0; color:#fff;">AURELIANWARE, INC.</h2>
     <p style="margin:0; font-size:1.2rem;">CLOUD HEALTH OFFICE — Your Core Admin System</p>
+    <section class="hero">
+      <h1 style="font-size:2.8rem; margin:1rem 0;">Cloud Health Office</h1>
+      <p style="font-size:1.4rem; max-width:800px; margin:0 auto 2rem;">Kubernetes-Native • HIPAA Compliant •
+        Vendor-Neutral CMS-0057-F Compliance Layer<br>QNXT • Facets • HealthEdge • Amisys</p>
+  
+      <!-- SVG embed – loads successfully from your repo -->
+    
+    <div class="resp-img">
+      <amp-img
+        layout="responsive"
+        alt="Cloud Health Office microservices architecture: 22 .NET 8 services including claims-service (837/835), eligibility-service (270/271), fhir-service, Argo Workflows DAG, HIPAA compliant Kubernetes payer platform – Cosmos DB + MongoDB backend"
+        src="/cloudhealthoffice-architedcture.svg"
+        height="1000"
+        width="1200"
+        sizes="(max-width: 1000px) 100vw,
+                  (max-width: 1200px) 75vw, 600px">
+      </amp-img>
+    </div>
+    </section>
   </header>
-
-  <section class="hero">
-    <h1 style="font-size:2.8rem; margin:1rem 0;">Cloud Health Office</h1>
-    <p style="font-size:1.4rem; max-width:800px; margin:0 auto 2rem;">Kubernetes-Native • HIPAA Compliant •
-      Vendor-Neutral CMS-0057-F Compliance Layer<br>QNXT • Facets • HealthEdge • Amisys</p>
-
-    <!-- SVG embed – loads successfully from your repo -->
-    <amp-img class="diagram" src="https://aurelianware.com/cloudhealthoffice-architecture.svg" width="1200"
-      height="1000" layout="responsive"
-      alt="Cloud Health Office microservices architecture: 22 .NET 8 services including claims-service (837/835), eligibility-service (270/271), fhir-service, Argo Workflows DAG, HIPAA compliant Kubernetes payer platform – Cosmos DB + MongoDB backend"
-      preserveAspectRatio="xMidYMid meet">
-    </amp-img>
-  </section>
 
   <main style="max-width:1200px; margin:2rem auto; padding:0 1rem;">
     <h2 style="text-align:center;">The Modern Integration Layer Health Plans Have Been Waiting For</h2>
