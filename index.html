@@ -176,7 +176,7 @@
       <p style="font-size:1.4rem; max-width:800px; margin:0 auto 2rem;">  
         <amp-img
           layout="responsive"
-          alt="Cloud Health Office microservices architecture: 22 .NET 8 services including claims-service (837/835), eligibility-service (270/271), fhir-service, Argo Workflows DAG, HIPAA compliant Kubernetes payer platform – Cosmos DB + MongoDB backend"
+          alt="Cloud Health Office microservices architecture: 23 .NET 8 services including claims-service (837/835), eligibility-service (270/271), fhir-service, Argo Workflows DAG, HIPAA compliant Kubernetes payer platform – Cosmos DB + MongoDB backend"
           src="https://aurelianware.com/cloudhealthoffice-architecture.svg"
           height="1000"
           width="1200"
@@ -193,6 +193,7 @@
       <div class="card"><strong>Claims Service</strong><br>837 / 835 • Real-time adjudication</div>
       <div class="card"><strong>Eligibility &amp; Auth</strong><br>270/271 • 278 • Benefit Engine</div>
       <div class="card"><strong>Provider Service</strong><br>NPI • Credentialing • Multi-clearinghouse</div>
+      <div class="card"><strong>Work Queue Service</strong><br>Claim routing &amp; queue orchestration • SignalR real-time UI • Routes to Claims Service</div>
       <div class="card"><strong>Argo Workflows DAG</strong><br>HealthXchange → Validate Provider → Adjudicate → Pay
         Claims</div>
       <div class="card"><strong>FHIR R4 + X12</strong><br>Python 3.11 parsers • TypeScript mappers • .NET 8 999/277CA
