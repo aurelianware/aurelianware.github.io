@@ -199,7 +199,7 @@ code { font-family: var(--mono); font-size: 0.75rem; }
 .footer-brand .muted { max-width: 24rem; margin-top: 1rem; font-size: 0.875rem; }
 .footer-name { font-family: var(--display); font-size: 1.25rem; margin: 0; }
 .site-footer ul { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 0.5rem; font-size: 0.875rem; }
-.site-footer a { text-decoration: none; }
+.site-footer a { text-decoration: underline; text-underline-offset: 4px; }
 .site-footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .footer-bottom {
   border-top: 1px solid var(--border);
