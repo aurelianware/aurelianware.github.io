@@ -26,4 +26,4 @@ Clean URLs use directory `index.html` files so GitHub Pages serves `/products/` 
 ## Products
 
 - [cloudhealthoffice.com](https://cloudhealthoffice.com) — BSL 1.1
-- [clouddentaloffice.com](https://clouddentaloffice.com) — Apache 2.0
+- [clouddental.io](https://clouddental.io) — Apache 2.0
