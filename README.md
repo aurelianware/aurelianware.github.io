@@ -21,6 +21,8 @@ Precise. Founder-written. Austere. Short sentences. No invented metrics, custome
 
 ## Deploy
 
+`sitemap.xml` and each page's footer "Last updated" date are generated. On every push to `main` that touches HTML, `.github/workflows/site-meta.yml` runs `.github/scripts/update_site_meta.py` and commits the result. Don't edit the sitemap by hand. A new page is picked up automatically when it has a self-referencing canonical link and no `noindex`.
+
 GitHub Pages from `main`. Custom domain: `aurelianware.com` (`CNAME`).
 
 Clean URLs use directory `index.html` files so GitHub Pages serves `/products/` without a rewrite layer.
