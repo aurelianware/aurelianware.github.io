@@ -1,0 +1,40 @@
+name: Update sitemap and page dates
+
+on:
+  push:
+    branches: [main]
+    paths: ["**.html", ".github/scripts/update_site_meta.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-meta
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # page dates come from git history
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate sitemap.xml and footer dates
+        run: python3 .github/scripts/update_site_meta.py
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to update."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Update sitemap and page dates [auto-meta]"
+          git push
