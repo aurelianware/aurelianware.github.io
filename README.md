@@ -8,6 +8,8 @@ This is the parent: identity, product index, trust, and contact. Product evaluat
 | --- | --- |
 | `/` | Home |
 | `/products/` | Cloud Health Office and Cloud Dental Office |
+| `/services/` | Payer consulting: CMS-0057-F API validation, integration, cloud migration |
+| `/services/cms-0057-f-api-validation/` | Inferno-based CMS-0057-F API validation offer |
 | `/company/` | Legal entity and licensing |
 | `/trust/` | No borrowed badges. HIPAA and security contacts. |
 | `/privacy/` | Marketing-site privacy notes |
