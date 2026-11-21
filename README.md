@@ -2,22 +2,24 @@
 
 Company website for [aurelianware.com](https://aurelianware.com).
 
-This is the parent: identity, product index, trust, and contact. Product evaluation lives on the product sites.
+Aurelianware, Inc. is a pre-seed, single-product software company. This site says what it sells (Cloud Health Office, by subscription), who runs it, and how to reach it. Product evaluation lives on cloudhealthoffice.com.
 
 | Path | Purpose |
 | --- | --- |
-| `/` | Home |
-| `/products/` | Cloud Health Office and Cloud Dental Office |
-| `/services/` | Payer consulting: CMS-0057-F API validation, integration, cloud migration |
-| `/services/cms-0057-f-api-validation/` | Inferno-based CMS-0057-F API validation offer |
-| `/company/` | Legal entity and licensing |
+| `/` | Home: product, proof, business model, team and stage |
+| `/products/` | Cloud Health Office capabilities and evidence links |
+| `/services/` | Retired. `noindex` redirect to `/company/#business-model` |
+| `/services/cms-0057-f-api-validation/` | Retired. `noindex` redirect to cloudhealthoffice.com/docs/compliance |
+| `/company/` | Business model, licensing, team and stage |
 | `/trust/` | No borrowed badges. HIPAA and security contacts. |
 | `/privacy/` | Marketing-site privacy notes |
 | `/contact/` | Mailto. Nothing stored here. |
 
 ## Voice
 
-Precise. Founder-written. Austere. Short sentences. No invented metrics, customers, or certifications.
+Precise. Founder-written. Austere. Short sentences. No invented metrics, customers, or certifications. No dollar pricing.
+
+This is a product company site. Do not add consulting-for-hire content (rates, staffing, fractional roles, custom development). Implementation and onboarding are described only as services that support a Cloud Health Office subscription. Every page footer says "Cloud Health Office is a product of Aurelianware, Inc."
 
 ## Deploy
 

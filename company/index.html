@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Company — Aurelianware, Inc.</title>
-  <meta name="description" content="Aurelianware, Inc. is the legal entity and intellectual-property owner behind Cloud Health Office and Cloud Dental Office." />
+  <meta name="description" content="Aurelianware, Inc. is a pre-seed software company. It builds Cloud Health Office and licenses it to health plans by subscription." />
   <link rel="canonical" href="https://aurelianware.com/company/" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="theme-color" content="#F3EFE6" />
@@ -12,12 +12,12 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Aurelianware, Inc." />
   <meta property="og:title" content="Company — Aurelianware, Inc." />
-  <meta property="og:description" content="Aurelianware, Inc. is the legal entity and intellectual-property owner behind Cloud Health Office and Cloud Dental Office." />
+  <meta property="og:description" content="Aurelianware, Inc. is a pre-seed software company. It builds Cloud Health Office and licenses it to health plans by subscription." />
   <meta property="og:url" content="https://aurelianware.com/company/" />
   <meta property="og:image" content="https://aurelianware.com/og.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Company — Aurelianware, Inc." />
-  <meta name="twitter:description" content="Aurelianware, Inc. is the legal entity and intellectual-property owner behind Cloud Health Office and Cloud Dental Office." />
+  <meta name="twitter:description" content="Aurelianware, Inc. is a pre-seed software company. It builds Cloud Health Office and licenses it to health plans by subscription." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap" />
@@ -39,8 +39,8 @@
         </span>
       </a>
       <nav class="nav-desktop" aria-label="Primary">
-        <a href="/products/" class="nav-link">Products</a>
-<a href="/services/" class="nav-link">Services</a>
+        <a href="/products/" class="nav-link">Product</a>
+<a href="/company/#business-model" class="nav-link">Business model</a>
 <a href="/company/" class="nav-link" aria-current="page">Company</a>
 <a href="/trust/" class="nav-link">Trust</a>
 <a href="/contact/" class="nav-link">Contact</a>
@@ -52,8 +52,8 @@
     </div>
     <div id="mobile-nav" class="nav-mobile" hidden>
       <nav class="nav-mobile-inner" aria-label="Mobile">
-        <a href="/products/" class="nav-mobile-link">Products</a>
-<a href="/services/" class="nav-mobile-link">Services</a>
+        <a href="/products/" class="nav-mobile-link">Product</a>
+<a href="/company/#business-model" class="nav-mobile-link">Business model</a>
 <a href="/company/" class="nav-mobile-link" aria-current="page">Company</a>
 <a href="/trust/" class="nav-mobile-link">Trust</a>
 <a href="/contact/" class="nav-mobile-link">Contact</a>
@@ -65,44 +65,52 @@
       <div class="wrap prose section">
         <header class="page-intro">
           <p class="eyebrow">Company</p>
-          <h1>The legal entity behind the products.</h1>
-          <p class="lede">Aurelianware, Inc. owns the intellectual property. Cloud Health Office and Cloud Dental Office are the products. This page is for counsel, diligence, and anyone who followed a GitHub org here.</p>
+          <h1>A pre-seed software company with one product.</h1>
+          <p class="lede">Aurelianware, Inc. builds and licenses Cloud Health Office, and owns its intellectual property. This page is for investors, counsel, and diligence.</p>
         </header>
         <section>
           <h2>Who we are</h2>
-          <p>We are a software company. We write healthcare infrastructure, publish the source that a security team can actually read, and deploy into the customer’s cloud when the product requires it.</p>
-          <p>We are not a staff-augmentation firm, a clearinghouse, or a reseller of someone else’s core admin system.</p>
+          <p>We are a product company. We build health plan core administration software, publish the source a security team can read, and license it to health plans by subscription.</p>
+          <p>We are not a consultancy, an agency, a staff-augmentation firm, a clearinghouse, or a reseller of someone else’s core admin system.</p>
         </section>
-        <section>
-          <h2>Licensing</h2>
-          <p>The two products are licensed differently on purpose. Do not assume one term from the other.</p>
+        <section id="business-model">
+          <h2>Business model</h2>
           <div class="table-wrap">
             <table>
               <thead>
-                <tr><th>Product</th><th>License</th><th>What that means</th></tr>
+                <tr><th>Line</th><th>What the plan pays for</th></tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Cloud Health Office</td>
-                  <td><code>BSL 1.1</code></td>
-                  <td>Source-available for inspection. Production use follows the license terms.</td>
+                  <td>Subscription license</td>
+                  <td>The core revenue. An annual Cloud Health Office license priced per member per month and sized to the plan. Multi-year terms. Expansion is an amendment, not a new contract.</td>
                 </tr>
                 <tr>
-                  <td>Cloud Dental Office</td>
-                  <td><code>Apache 2.0</code></td>
-                  <td>Open source. Clone, run, and inspect the isolation boundary.</td>
+                  <td>Layers</td>
+                  <td><strong>Foothold:</strong> CMS-0057-F APIs in the plan’s cloud, with the existing core as the system of record. <strong>Domain cutover:</strong> one operational domain moves off the core. <strong>Core:</strong> Cloud Health Office becomes the claims ledger. Each layer includes the one before it.</td>
+                </tr>
+                <tr>
+                  <td>Implementation and onboarding</td>
+                  <td>A supporting service, scoped with the license: standing up the plan’s file drop, APIs, and tenant. Not sold as staff time on its own.</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p>Indicative pricing is shared during discovery. See <a href="https://cloudhealthoffice.com/pricing">cloudhealthoffice.com/pricing</a>.</p>
         </section>
         <section>
-          <h2>What this site is for</h2>
-          <p>Company identity, a product index, and the contacts that belong on a parent: <a href="mailto:hello@aurelianware.com">hello@aurelianware.com</a> and <a href="mailto:hipaa@aurelianware.com">hipaa@aurelianware.com</a>. Payer consulting lives on <a href="/services/">Services</a>. Product evaluation, pricing, pilots, and architecture live on the product sites.</p>
+          <h2>Licensing</h2>
+          <p>Cloud Health Office is licensed under <code>BSL 1.1</code>. The source is public so anyone can read and evaluate it. Production use requires a commercial license from Aurelianware, Inc.</p>
+        </section>
+        <section id="team">
+          <h2>Team and stage</h2>
+          <p><strong>Rod Hinze, co-founder and CEO.</strong> Formerly in M&amp;A at Bear Stearns and merchant banking at Goldman Sachs, and founder of Hinze Capital. Based in Dallas.</p>
+          <p><strong>Mark Phillips, founder and CTO.</strong> 25 years in payer core systems across QCSI, TriZetto, Cognizant, Molina Healthcare, and Invidasys. Co-inventor of the MyQNXT patent. He architected and built Cloud Health Office.</p>
+          <p><strong>Stage.</strong> Pre-seed. The product is built and tested on synthetic data. No plan runs it in production yet. First target market: Texas Medicaid managed care plans.</p>
         </section>
         <section>
           <h2>What we do not claim</h2>
-          <p>We do not present cloud-provider certifications as Aurelianware certifications. We do not currently hold SOC 2 Type II or HITRUST. We do not invent customer logos, throughput numbers, or “trusted by” lines on this page. Evidence is in the repositories and on the product sites that publish it.</p>
+          <p>We do not present cloud-provider certifications as Aurelianware certifications. We do not currently hold SOC 2 Type II or HITRUST. Passing ONC Inferno kits is not CMS or ONC certification. We do not invent customer logos, throughput numbers, or “trusted by” lines. Evidence is in the repository and on <a href="https://cloudhealthoffice.com/evidence">cloudhealthoffice.com/evidence</a>.</p>
         </section>
         <div class="actions">
           <a class="btn btn-primary" href="/trust/">Trust and legal</a>
@@ -120,13 +128,13 @@
 </svg>
           <p class="footer-name">Aurelianware, Inc.</p>
         </div>
-        <p class="muted">Healthcare infrastructure software. The company is the parent. The products are the work.</p>
+        <p class="muted">Cloud Health Office is a product of Aurelianware, Inc.</p>
       </div>
       <div>
         <p class="eyebrow">Company</p>
         <ul>
-          <li><a href="/products/">Products</a></li>
-          <li><a href="/services/">Services</a></li>
+          <li><a href="/products/">Product</a></li>
+          <li><a href="/company/#business-model">Business model</a></li>
           <li><a href="/company/">Company</a></li>
           <li><a href="/trust/">Trust</a></li>
           <li><a href="/contact/">Contact</a></li>
@@ -134,10 +142,10 @@
         </ul>
       </div>
       <div>
-        <p class="eyebrow">Products</p>
+        <p class="eyebrow">Product</p>
         <ul>
           <li><a href="https://cloudhealthoffice.com">Cloud Health Office</a></li>
-          <li><a href="https://clouddental.io">Cloud Dental Office</a></li>
+          <li><a href="https://cloudhealthoffice.com/docs/compliance">Compliance status</a></li>
           <li><a href="https://github.com/aurelianware">GitHub</a></li>
         </ul>
       </div>
