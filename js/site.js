@@ -34,7 +34,7 @@ if (form) {
       .filter(Boolean)
       .join("\n");
     window.location.href =
-      "mailto:hello@aurelianware.com?subject=" +
+      "mailto:support@aurelianware.com?subject=" +
       encodeURIComponent("Aurelianware inquiry") +
       "&body=" +
       encodeURIComponent(body);
